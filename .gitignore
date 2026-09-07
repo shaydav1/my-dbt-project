@@ -1,4 +1,23 @@
-
+# dbt
 target/
 dbt_packages/
 logs/
+
+# dbt local credentials
+profiles.yml
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
